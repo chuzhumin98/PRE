@@ -1,0 +1,5 @@
+numpy==1.18.5
+PyYAML==5.3.1
+openai==0.27.4
+zhipuai==1.0.7
+claude2openai==0.0.1
