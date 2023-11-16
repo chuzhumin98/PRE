@@ -1,0 +1,1 @@
+Task: Generate a short summary of the text in at most 64 words. Text:{{original_text}}Summary:

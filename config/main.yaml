@@ -1,0 +1,9 @@
+config_api_evaluatee: "config/evaluatees.yaml"
+config_api_evaluator: "config/evaluators.yaml"
+config_task_data: "config/data.yaml"
+config_exam: "config/exam.yaml"
+config_eval: "config/eval.yaml"
+task_name: "test3"
+save_dir: "outputs3"
+process_num: 1
+debug: True

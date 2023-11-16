@@ -1,0 +1,7 @@
+strategy: "ELO"
+mode: "pairwise"
+weighted_method: "uniform"
+path_eval_prompt: "data/prompt_eval_pairwise.txt"
+parser_type: "str"
+nominal_list: one,tie,two
+nominal_ticks: -1,0,1

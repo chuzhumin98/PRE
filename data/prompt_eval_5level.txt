@@ -1,0 +1,12 @@
+###Task: Evaluate the summary of a given passage and determine how it summarizes the main points of the passage considering accuracy and conciseness. Directly output a number between 1 and 5 to indicate the quality score of this summary:
+- 1 means the summary is not relevant to the passage,
+- 2 means the summary is neither accurate nor concise but it is relevant to the passage,
+- 3 means the summary is only a fair summary of the passage considering accuracy and conciseness,
+- 4 means the summary is a good summary of the passage but still has room for improvement in accuracy and conciseness,
+- 5 means the summary is a perfect summary of the passage considering accuracy and conciseness.
+
+###Passage: {{original_text}}
+
+###Summary: {{#source}}
+
+###Score of the summary: 	

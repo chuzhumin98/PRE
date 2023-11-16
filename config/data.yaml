@@ -1,0 +1,3 @@
+path_data: "data/task_samples.json"
+format: 'json'
+path_prompt: "data/prompt_task.txt"

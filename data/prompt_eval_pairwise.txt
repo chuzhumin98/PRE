@@ -1,0 +1,9 @@
+###Task: Evaluate two summaries of a given passage and determine which one better summarizes the main points of the passage considering accuracy and conciseness. You only need to output ‘one‘ or ‘two‘ directly to indicate which summary summarizes the passage better.
+
+###Passage: {{original_text}}
+
+###Summary one: {{#source1}}
+
+###Summary two: {{#source2}}
+
+###Output:

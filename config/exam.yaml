@@ -1,0 +1,16 @@
+source: 'same'
+mode: 'pointwise'
+parser_type: "int"
+conduct_reference_exam: False
+conduct_inner_consistency_exam: False
+metric_pointwise: "EM"
+p_gold: 0.6
+p_cons: 0.6
+MSE_acc: 1.
+MSE_cons: 1.
+path_exam_prompt: "data/prompt_eval_5level.txt"
+path_exam_prompt2: ""
+path_exam_same_data: "data/exam_same_samples.json"
+format_exam_same_data: "json"
+path_exam_others_data: ""
+format_exam_others_data: "csv"
