@@ -42,5 +42,11 @@ There are several advantages of our framework:
 - Customed-friendly: user could customize their special extension if they have some expansion usage requirement. Our framework is welcome for these personalized requirments
 - Support mutli-processing: Our framework support multi-processing, user could run many APIs at the same time.
 
+### Citation
 
+If you used our evaluation framework, please cite with the following information.
+
+~~~
+Zhumin Chu, Qingyao Ai, Yiteng Tu, Haitao Li, Yiqun Liu. "PRE: a peer review evaluator framework for automatic LLM evaluation." 2023.
+~~~
 
