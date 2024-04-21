@@ -430,12 +430,12 @@ class PRE:
             return sum([results[i] * weights[i]  for i in range(len(weights))])
         elif self.mode == 'pairwise':
             cnt_pos, cnt_neg = 0., 0.
-            for items in results:
+            for i, items in enumerate(results):
                 for item in items:
                     if item > 0:
-                        cnt_pos += 1.
+                        cnt_pos += weights[i]
                     elif item < 0:
-                        cnt_neg += 1.
+                        cnt_neg += weights[i]
             if cnt_pos > cnt_neg:
                 return 1
             elif cnt_pos < cnt_neg:
